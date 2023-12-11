@@ -155,3 +155,23 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.qual-image-sup {
+  height: 200px; /* Adjust the height as needed for both images */
+  width: 800px; /* Maintain aspect ratio */
+}
+
+.qual-image-few {
+  height: 200px; /* Adjust the height as needed for both images */
+  width: 400px; /* Maintain aspect ratio */
+}
+
+.motivation1 {
+  height: 300px; /* Adjust the height as needed for both images */
+  width: 600px; /* Maintain aspect ratio */
+}
+
+.motivation2 {
+  height: 300px; /* Adjust the height as needed for both images */
+  width: 600px; /* Maintain aspect ratio */
+}
