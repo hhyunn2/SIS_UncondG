@@ -142,7 +142,7 @@
         </div>
       </div>
       <!-- Add a dividing line between the two columns -->
-      <div class="column" style="border-left: 1px solid #ccc; padding-left: 20px;">
+      <div class="column" style="border-left: 1px solid #012b62ca; padding-left: 20px;">
         <div class="columns is-centered">
           <div class="column content">
             <p style="margin-bottom: 50px;">
@@ -183,7 +183,7 @@
     <div class="columns">
       <div class="column">
         <div class="content">
-          <h3 class="title is-6">Rearranger</h3>
+          <h4 class="title is-6" style="color: #012b62ca;">Rearranger</h4>
           <!-- Adjust the width of the image by adding a style attribute -->
           <img src="./static/images_ours/Rearranger.png"
               class="interpolation-image"
@@ -192,8 +192,8 @@
         </div>
       </div>
       <!-- Add a dividing line between the two columns -->
-      <div class="column" style="border-left: 1px solid #ccc; padding-left: 20px;">
-        <h3 class="title is-6">Semantic Mapper</h3>
+      <div class="column" style="border-left: 1px solid #012b62ca; padding-left: 20px;">
+        <h4 class="title is-6" style="color: #012b62ca;">Semantic Mapper</h4>
         <div class="columns is-centered">
           <div class="column content">
             <p style="margin-bottom: 30px;">
@@ -235,7 +235,7 @@
   <div class="container is-max-desktop">
     <h2 class="title is-4" style="margin-bottom: -10px; color: #012b62ca;">Comparison with Competitors</h2>
     <hr class="thick-line">
-    <h3 class="title is-5">Qualitative Comparison with a Few-shot Method</h3>
+    <h3 class="title is-5" style="color: #012b62ca;">Qualitative Comparison with a Few-shot Method</h3>
     <div class="columns vertical_center">
       <div class="column is-two-sixths">
         <div class="columns">
@@ -248,7 +248,7 @@
       </div>
     </div>
 
-    <h3 class="title is-5">Qualitative Comparison with Supervised Methods</h3>
+    <h3 class="title is-5" style="color: #012b62ca;">Qualitative Comparison with Supervised Methods</h3>
     <div class="columns vertical_center">
       <div class="column is-two-sixths">
         <div class="columns">
@@ -259,16 +259,16 @@
       </div>
     </div>
 
-    <h3 class="title is-5">Quantitative Results</h3>
+    <h3 class="title is-5" style="color: #012b62ca;">Quantitative Results</h3>
     <div class="columns vertical_center">
       <div class="column is-two-sixths">
         <div class="content">
-          <h3 class="title is-6">Quantitative Comparision with a Few-Shot Method</h3>
+          <h4 class="title is-6" style="color: #012b62ca;">Quantitative Comparision with a Few-Shot Method</h4>
           <img src="./static/images_ours/qual_few.png" class="qual-image-few" alt="Interpolate start reference image."/>
         </div>
       </div>
-      <div class="column" style="border-left: 1px solid #ccc; padding-left: 40px;">
-        <h3 class="title is-6">Quantitative Comparison with Supervised Methods</h3>
+      <div class="column" style="border-left: 1px solid #012b62ca; padding-left: 40px;">
+        <h4 class="title is-6" style="color: #012b62ca;">Quantitative Comparison with Supervised Methods</h4>
         <div class="columns is-centered">
           <div class="column content">
             <img src="./static/images_ours/qual_sup.png" class="qual-image-sup" alt="Interpolate start reference image."/>
@@ -284,7 +284,7 @@
   <div class="container is-max-desktop">
     <h2 class="title is-4" style="margin-bottom: -10px; color: #012b62ca;">Applications</h2>
     <hr class="thick-line">
-    <h3 class="title is-5">Application 1 - Free-Form Image Manipulation</h3>
+    <h3 class="title is-5" style="color: #012b62ca;">Application 1 - Free-Form Image Manipulation</h3>
     <p style="margin-bottom: 5px;">
       We demonstrate the flexibility of our proposed method in enabling free-form image manipulation. 
       Our approach highlights its capability of handling masks that differ significantly from typical training distributions, such as large pointy ears and corn head.
@@ -301,11 +301,11 @@
       </div>
     </div>
 
-    <h3 class="title is-5">Application 2 - Image Generation with Multiple Conditions</h3>
+    <h3 class="title is-5" style="color: #012b62ca;">Application 2 - Image Generation with Multiple Conditions</h3>
     <p style="margin-bottom: 40px;">
       To show the versatility of our method, we present images generated under various conditions of user sketch, HED and depth map.
     </p>
-    <h4 class="title is-6">
+    <h4 class="title is-6" style="color: #012b62ca;">
           AFHQ Cat Results with Sketch Conditions
     </h4>
     <div class="columns vertical_center">
@@ -319,7 +319,7 @@
         </div>
       </div>
     </div>
-    <h4 class="title is-6">
+    <h4 class="title is-6" style="color: #012b62ca;">
           LSUN Church Results with Sketch Conditions
     </h4>
     <div class="columns vertical_center">
@@ -333,7 +333,7 @@
         </div>
       </div>
     </div>
-    <h4 class="title is-6">
+    <h4 class="title is-6" style="color: #012b62ca;">
           FFHQ Results with HED Conditions
     </h4>
     <div class="columns vertical_center">
@@ -347,7 +347,7 @@
         </div>
       </div>
     </div>
-    <h4 class="title is-6">
+    <h4 class="title is-6" style="color: #012b62ca;">
           LSUN Bedroom Results with Depth Conditions
     </h4>
     <div class="columns vertical_center">
@@ -361,8 +361,27 @@
         </div>
       </div>
     </div>
+
+    <h3 class="title is-5" style="color: #012b62ca;">Application 3 - Exemplar-Guided Image Generation</h3>
+    <p style="margin-bottom: 5px;">
+      Beyond the specified conditions, our model produces an output image that has a similar structure to a provided sample. 
+      The process can be done by obtaining the proxy mask of the inverted provided sample.
+    </p>
+    <div class="columns vertical_center">
+      <div class="column is-two-sixths">
+        <div class="columns">
+          <div class="column">
+            <figure>
+              <img src="./static/images_ours/exemplarpng.png"/>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
+
 
 
 <footer class="footer">
